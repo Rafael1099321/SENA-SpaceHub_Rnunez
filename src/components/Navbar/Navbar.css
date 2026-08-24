@@ -1,0 +1,18 @@
+.sena-header {
+  background-color: #212121;
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-bottom: 4px solid #39A900;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.header-brand { display: flex; align-items: center; gap: 0.75rem; }
+.logo-badge { background-color: #39A900; color: #fff; padding: 0.5rem 0.75rem; border-radius: 0.5rem; font-weight: 800; }
+.header-title { font-size: 1rem; font-weight: 700; margin: 0; }
+.header-sub { font-size: 0.625rem; color: #94a3b8; margin: 0; }
+.user-status-btn { background-color: #1e293b; padding: 0.5rem 0.75rem; border-radius: 0.5rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer; border: 1px solid #334155; }
+.status-dot { width: 0.5rem; height: 0.5rem; border-radius: 9999px; }
+.status-dot.active { background-color: #34d399; }
+.status-dot.inactive { background-color: #f87171; }
