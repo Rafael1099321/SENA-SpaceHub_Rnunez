@@ -1,0 +1,16 @@
+{
+  "name": "sena-spacehub-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Backend API REST (Express + JWT + RBAC) para SENA SpaceHub - Sesión 5",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
